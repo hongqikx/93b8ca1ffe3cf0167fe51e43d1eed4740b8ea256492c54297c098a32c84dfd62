@@ -3,22 +3,31 @@ name: hongqikx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 0/6 * * *'
-jobs:  # 6119
+    - cron: '5 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hongqikx
         env:
-          epqas6: ${{ secrets.epqas6 }}
+          topf9: ${{ secrets.topf9 }}
         run: |
-          echo $epqas6 | jq -r .zbszd7 | /bin/bash
-          echo $zucr387 | jq -r .vruk087 | /bin/bash
-          echo $xjqoa11353 | jq -r .zdy4 | /bin/bash
-          echo $a492 | jq -r .iuqjj036 | /bin/bash
-          echo $alzc701 | jq -r .vj7 | /bin/bash
-          echo $vgplk16824 | jq -r .wdg76 | /bin/bash
-          echo $zbc65535 | jq -r .r69523 | /bin/bash
-          echo $v291 | jq -r .s13 | /bin/bash
+          echo $topf9 | jq -r .wschy634 | /bin/bash
+          echo $v535 | jq -r .oqp64595 | /bin/bash
+          echo $i11 | jq -r .lf49 | /bin/bash
+          echo $kkywa173 | jq -r .slm37 | /bin/bash
+          echo $h1 | jq -r .jdium8233 | /bin/bash
+          echo $def31818 | jq -r .n169 | /bin/bash
+          echo $edeoy36 | jq -r .t9 | /bin/bash
+          echo $vth3162 | jq -r .ozmiq171 | /bin/bash
+          echo $xu3 | jq -r .ogu82260 | /bin/bash
+          echo $rkl7 | jq -r .yrni67 | /bin/bash
+          echo $ti66670 | jq -r .froi769 | /bin/bash
+          echo $ktmc79502 | jq -r .swrf90377 | /bin/bash
+          echo $qyt47 | jq -r .brhj944 | /bin/bash
+          echo $rqg6605 | jq -r .wg02960 | /bin/bash
+          echo $htyc40700 | jq -r .xndf7 | /bin/bash
+          echo $damd65386 | jq -r .zotw64 | /bin/bash
 
